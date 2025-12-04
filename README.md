@@ -1,68 +1,55 @@
 # Loan-Approval-Prediction
 Machine learning project to predict loan approval using demographic, financial, and credit data.
 
-Introduction
+# Loan Approval Prediction
 
-This is a machine learning project to predict whether a person will get a loan or not. We are using past loan applicant data and training a model on it. After training, the model can give output as Approved or Rejected based on the given details.
+## Introduction
+This project focuses on predicting whether a loan application will be **approved** or **rejected** using machine learning techniques. By learning patterns from historical loan data, the model can help automate and speed up the loan decision process.
 
-About the Dataset
+## Dataset Information
+The dataset includes different details of loan applicants, such as:
 
-The dataset contains different information about people who applied for loans, like:
+- Age  
+- Education  
+- Employment type  
+- Monthly income  
+- Loan amount  
+- Loan term  
+- Credit score  
 
-Age
+**Target Column:** Loan Status (Approved / Rejected)
 
-Education
+## Project Steps
+- Data loading  
+- Checking and handling missing values  
+- Encoding categorical data  
+- Basic data analysis  
+- Training machine learning models  
+- Evaluating model performance  
 
-Job type
+## Models Used
+- Logistic Regression  
+- Decision Tree Classifier  
+- Random Forest Classifier  
 
-Income
+The models were trained and compared to determine which one performed the best.
 
-Loan amount
+## Output
+The final model predicts whether a new loan application will be:
 
-Credit score
+- **Approved**  
+or  
+- **Rejected**
 
-Loan term
+based on the input features.
 
-The last column tells whether the loan was approved earlier or not.
+## Libraries Used
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Scikit-Learn  
+- Jupyter Notebook  
 
-What We Did
-
-Loaded the dataset
-
-Checked missing values and cleaned the data
-
-Converted categorical data into numerical format
-
-Did some basic analysis to understand which factors affect loan approval
-
-Trained different machine learning models
-
-Compared their accuracy and selected the best model
-
-Models Used
-
-Logistic Regression
-
-Decision Tree
-
-Random Forest
-
-Result
-
-The model predicts if a new person’s loan application should be approved or rejected based on the data provided.
-
-Libraries Used
-
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Scikit-Learn
-
-Conclusion
-
-This project helps in making the loan approval process faster and more reliable. Instead of checking files manually, a computer can give results automatically by looking at the data.
+## Conclusion
+This project shows how machine learning can help automate loan approval decisions. Instead of reviewing each application manually, a trained model can provide quicker and more consistent results using data.
